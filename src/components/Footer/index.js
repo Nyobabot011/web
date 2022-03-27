@@ -21,7 +21,7 @@ class Footer extends Component {
     return (
       <div style={{ paddingTop: "75px" }}>
         <footer className={classes.footer__container} id="footer__container">
-          <a href="https://github.com/libDrive/libDrive/" target="_blank">
+          <a href="https://t.me/gawrproject" target="_blank">
             <img
               src="/images/github.gif"
               className="footer__github"
@@ -31,10 +31,10 @@ class Footer extends Component {
           </a>
           <a
             className="no_decoration_link footer__text"
-            href="https://elias.eu.org"
+            href="https://gawr.floral.workers.dev/"
             target="_blank"
           >
-            {`© 2021 Copyright: Elias Benbourenane - v${version}`}
+            {`© 2022 Copyright: Gawr Project - v${version}`}
           </a>
         </footer>
       </div>
